@@ -1,24 +1,42 @@
-body{
-    background-color: white
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: white;
+    font-family: Nunito, Roboto, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    }
+
+h2 {
+    margin: 0;
 }
 
-div #content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
-}
+    }
 
 header {
     background-color: #3E3F5A;
-}
+        }
 
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
     text-align: center;
     color: #E5DCDD;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -36,6 +54,9 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: Chewy, 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -44,12 +65,16 @@ h4 {
 
 .button-box {
     text-align: center;
-}
+    }
 
 .book, .join {
-    background-color: #D77A5B;
+    background-color: #3E3F5A;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -61,30 +86,57 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    }
+
+.card-img {
+    border: 10px solid #3E3F5A;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #background {
     height: 725px;
     background-color: #547d5d;
+    margin: 100px 0;
+}
+
+.mountains {
+    margin: 100px 0;
 }
 
 .msg {
     background-color: #D77A5B;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 100px 0;
 }
 
 .msg h2 {
     color: black;
+    font-family: Chewy, 'Playfair Display', serif;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #3E3F5A;
     color: #E5DCDD;
+    font-family: Nunito, Roboto, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -103,4 +155,8 @@ footer a {
 footer a:hover {
     background-color: #D77A5B;
     color: black;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
