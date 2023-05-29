@@ -76,6 +76,10 @@ nav a:hover {
     color: #E5DCDD;
 }
 
+#hero-msg h1 {
+    letter-spacing: .08em;
+}
+
 #hero-img {
     width: 100%;
 }
@@ -246,7 +250,7 @@ footer .social img {
     }
     .home-title {
         font-size: 25px;
-        color: #E5DCDD;
+        color: #3E3F5A;
     }
     .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;
