@@ -257,6 +257,7 @@ footer .social img {
     font-size: 2em;
     margin-top: 10px;
     text-align: center;
+    letter-spacing: .08em;
 }
 .faq-grid {
     display: grid;
