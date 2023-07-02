@@ -73,7 +73,7 @@ header {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
@@ -85,19 +85,18 @@ header {
 
 #hero-msg {
     grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 
 #hero-msg h1 {
     text-align: center;
     color: #822b24;
-    grid-row: 1;
-    margin-top: 100px;
 }
 
 #hero-msg h2 {
     text-align: center;
     grid-row: 3;
-
 }
 
 #hero-img {
