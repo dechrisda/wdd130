@@ -94,7 +94,7 @@ header {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/4;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 #hero-msg h1 {
@@ -102,17 +102,17 @@ header {
     text-align: center;
     color: #822b24;
     font-family: 'Abril fatface';
-    font-size: 40px;
-    padding: 20px;
+    font-size: 50px;
 }
 
 #hero-msg h2 {
     grid-row: 3/4;
     text-align: center;
     color: white;
-    background-color: #040F0F;
+    background-color: #822b24;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-top: 1200px;
+    font-size: 35px;
 }
 
 #hero-img {
@@ -127,18 +127,20 @@ header {
     margin: 0 auto;
     line-height: 1.5em;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .home-grid {
     display: grid;
     grid-template-columns: auto 3fr 1fr 5fr 1fr 3fr auto;
-    background-color: white;
+    background-color: #2BA84A;
     box-shadow: 5px 5px 10px black;
     width: 95%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 15px 30px;
+    position: relative;
+    z-index: -1;
 }
 
 .home-grid h2 {
@@ -149,14 +151,13 @@ header {
 .outsource {
     grid-row: 1/2;
     grid-column: 4/5;
-    width: 100%;
-    justify-items: center;
+    text-align: center;
 }
 
-#hands {
+#hands img {
     grid-row: 3/4;
     grid-column: 3/6;
-    width: 100%;
+    width: 1000px;
 }
 
 .peace-of-mind {
@@ -180,43 +181,48 @@ header {
     box-shadow: 5px 5px 10px black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 footer {
-    background-color: #3E3F5A;
-    color: #E5DCDD;
-    font-family: Nunito, Roboto, sans-serif;
+    background-color: #040F0F;
+    color: white;
+    font-family: Montserrat, Roboto, sans-serif;
     padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
+    margin-top: 100px;
+    display: grid;
     justify-content: space-around;
     align-items: center;
+    grid-template-columns: auto 1fr 1fr 1fr auto;
 }
 
-footer p {
-    font-size: 1.2em;
+.info {
+    background-color: white;
+    grid-column: 3/4;
+    justify-content: center;
+    text-align: center;
+    color: #2D3A3A;
 }
 
-footer p a:hover {
-    text-decoration: underline;
+.name {
+    font-family: 'Abril fatface';
+    color: #822b24;
+}
+
+footer nav {
+    grid-column: 4/5;
+    text-align: right;
 }
 
 footer a {
-    color: #E5DCDD;
+    color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 footer a:hover {
-    background-color: #D77A5B;
-    color: black;
+    background-color: #248232;
+    color: white;
 }
 
+.logo1 {
+    grid-column: 5/6;
+    width: 120px;
+    
