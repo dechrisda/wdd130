@@ -131,9 +131,11 @@ header {
     grid-column: 4/5;
     text-align: center;
 }
-#hands img {
+#hands {
     grid-row: 3/4;
     grid-column: 3/6;
+}
+#hands img {
     width: 1000px;
     position: relative;
     z-index: 1;
