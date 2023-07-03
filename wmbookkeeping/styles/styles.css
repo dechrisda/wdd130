@@ -14,7 +14,7 @@ h2 {
 }
 
 #content {
-    max-width: 1600 px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -158,6 +158,8 @@ header {
     grid-row: 3/4;
     grid-column: 3/6;
     width: 1000px;
+    position: relative;
+    z-index: 1;
 }
 
 .peace-of-mind {
@@ -165,6 +167,8 @@ header {
     grid-column: 2/3;
     background-color: white;
     box-shadow: 5px 5px 10px black;
+    position: relative;
+    z-index: 2;
 }
 
 .saves-you-money {
@@ -172,6 +176,8 @@ header {
     grid-column: 6/7; 
     background-color: white;
     box-shadow: 5px 5px 10px black;
+    position: relative;
+    z-index: 2;
 }
 
 .less-stress {
@@ -179,6 +185,8 @@ header {
     grid-column: 4/5;
     background-color: white;
     box-shadow: 5px 5px 10px black;
+    position: relative;
+    z-index: 2;
 }
 
 footer {
