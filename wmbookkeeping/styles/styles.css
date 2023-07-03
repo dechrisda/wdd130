@@ -8,34 +8,28 @@ body {
     margin: 0;
     padding: 0;
 }
-
 h2 {
     margin: 0;
 }
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
 header {
     background-color: #040F0F;
     display: grid;
-    grid-template-columns: 300px repeat(4, 2fr) auto 2fr;
+    grid-template-columns: 300px repeat(4, 2fr) auto auto;
 }
-
 .logo {
     grid-column: 1;
     width: 120px;
 }
-
 #logo_link {
     padding-top: 30px;
     padding-bottom: 30px;
     justify-self: center;
     align-self: center;
 }
-
 #link1, #link2 {
     display: flex;
     justify-content: space-around;
@@ -43,60 +37,50 @@ header {
     text-decoration: none;
     padding: 50px;
 }
-
 #link2 {
     grid-column: 7;
 }
-
 #link1 a {
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 35px;
 }
-
 #link2 a {
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 35px;
 }
-
 #link1 a:hover {
     background-color: #248232;
     color: white;
 }
-
 #link2 a:hover {
     background-color: #248232;
     color: white;
 }
-
 .social {
     padding-top: 60px;
     grid-column: 6;
     justify-content: end;
 }
-
 #hero {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: 1fr auto 1fr;
-    margin-top: -100px;
+    margin-top: 0px;
 }
-
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/4;
     z-index: -1;
 }
-
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/4;
-    margin-top: 90px;
+    margin-top: 15px;
 }
-
 #hero-msg h1 {
     grid-row: 1/2;
     text-align: center;
@@ -104,21 +88,18 @@ header {
     font-family: 'Abril fatface';
     font-size: 50px;
 }
-
 #hero-msg h2 {
     grid-row: 3/4;
     text-align: center;
     color: white;
     background-color: #822b24;
     padding: 20px;
-    margin-top: 1200px;
+    margin-top: 800px;
     font-size: 35px;
 }
-
 #hero-img {
     width: 100%;
 }
-
 #goal {
     color: #FCFFFC;
     background-color: #040F0F;
@@ -129,7 +110,6 @@ header {
     padding: 15px 30px;
     margin-top: 100px;
 }
-
 .home-grid {
     display: grid;
     grid-template-columns: auto 3fr 1fr 5fr 1fr 3fr auto;
@@ -142,18 +122,15 @@ header {
     position: relative;
     z-index: -1;
 }
-
 .home-grid h2 {
     color: #822b24;
     font-family: 'Abril fatface';
 }
-
 .outsource {
     grid-row: 1/2;
     grid-column: 4/5;
     text-align: center;
 }
-
 #hands img {
     grid-row: 3/4;
     grid-column: 3/6;
@@ -161,7 +138,6 @@ header {
     position: relative;
     z-index: 1;
 }
-
 .peace-of-mind {
     grid-row: 2/6;
     grid-column: 2/3;
@@ -170,7 +146,6 @@ header {
     position: relative;
     z-index: 2;
 }
-
 .saves-you-money {
     grid-row: 2/6;
     grid-column: 6/7; 
@@ -179,7 +154,6 @@ header {
     position: relative;
     z-index: 2;
 }
-
 .less-stress {
     grid-row: 5/7;
     grid-column: 4/5;
@@ -188,7 +162,6 @@ header {
     position: relative;
     z-index: 2;
 }
-
 footer {
     background-color: #040F0F;
     color: white;
@@ -198,9 +171,8 @@ footer {
     display: grid;
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: auto 1fr 1fr 1fr auto;
+    grid-template-columns: auto 1fr auto 1fr auto;
 }
-
 .info {
     background-color: white;
     grid-column: 3/4;
@@ -208,29 +180,23 @@ footer {
     text-align: center;
     color: #2D3A3A;
 }
-
 .name {
     font-family: 'Abril fatface';
     color: #822b24;
 }
-
 footer nav {
     grid-column: 4/5;
     text-align: right;
 }
-
 footer a {
     color: white;
     text-decoration: none;
     padding: 35px;
 }
-
 footer a:hover {
     background-color: #248232;
     color: white;
 }
-
 .logo1 {
     grid-column: 5/6;
     width: 120px;
-    
