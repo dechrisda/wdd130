@@ -64,6 +64,7 @@ header {
     padding-top: 60px;
     grid-column: 6;
     justify-content: end;
+    text-decoration: none;
 }
 #hero {
     display: grid;
