@@ -322,6 +322,7 @@ footer a:hover {
     margin-left: 800px;
     margin-top: -700px;
     border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .about-christin h2 {
