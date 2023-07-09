@@ -209,24 +209,20 @@ footer a:hover {
 .logo1 {
     grid-column: 5/6;
     width: 120px;
+}
 
 /* About Page */
-
-.about_headline {
-    display: flex;
-    background-color: #2BA84A;
-    text-align: center;
-    color: white;
-    font-family: 'Abril fatface';
-}
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
-  margin: auto;
+  margin-left: 0;
+  margin-top: 100px;
+  margin-bottom: 175px;
+  box-shadow: 5px 5px 10px black;
 }
 
 /* Hide the images by default */
@@ -252,7 +248,7 @@ footer a:hover {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 0px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -263,8 +259,8 @@ footer a:hover {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #248232;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -274,7 +270,7 @@ footer a:hover {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #248232;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -288,9 +284,10 @@ footer a:hover {
   width: 15px;
   margin: 0 2px;
   background-color: #bbb;
-  border-radius: 50%;
+  border-radius: 75%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  z-index: 1;
 }
 
 .active, .dot:hover {
@@ -308,6 +305,34 @@ footer a:hover {
   to {opacity: 1}
 }
 
+.about_headline {
+    background-color: #2BA84A;
+    color: white;
+    text-align: center;
+    height: 130px;
+    margin-top: -30px;
+    padding-top: 15px; 
+}
+
+.about-grid {
+    display: flex;
+    background-color:#822b24;
+    width: 50%;
+    padding: 15px 30px;
+    margin-left: 800px;
+    margin-top: -700px;
+    border-radius: 25px;
+}
+
+.about-christin h2 {
+    font-family: 'Abril fatface';
+    color: white;
+}
+
+.about-christin p {
+    font-family: Montserrat, Roboto, sans-serif;
+    color: white;
+}
 
 
 
@@ -343,3 +368,4 @@ footer a:hover {
         footer {
             margin-top: 25px;
         }
+    }
