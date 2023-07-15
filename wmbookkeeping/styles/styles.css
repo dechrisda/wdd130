@@ -349,36 +349,130 @@ footer a:hover {
     padding-top: 15px; 
 }
 
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
+#background1 {
+    max-width: 1600px;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 75px;
+    z-index: -1;
+    display: flex;
+    padding: 100px;
+    grid-row: 1/2;
+}
+    
+.computer-img {
+    width: 100%;
+    box-shadow: 5px 5px 10px black;
+}
 
-    @media screen and (max-width: 900px) {
-        #hero, .home-grid {
-            display: block;
-            height: auto;
-        }
-        nav, footer {
-            flex-direction: column;
-        }
-        nav a {
-            display: block;
-            padding: 15px;
-        }
-        #hero {
-            margin-top: 0;
-        }
-        #hero-msg {
-            margin-top: 0;
-        }
-        #hero-msg h1 {
-            color: #3E3F5A;
-        }
-        #hero-msg h4 {
-            display: none;
-        }
-        #background {
-            display: none;
-        }
-        footer {
-            margin-top: 25px;
-        }
+.bookkeeping {
+    background-color: #040F0F;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 1;
+    width: 1000px;
+    height: 500px;
+    margin-left: -150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.bookkeeping h2 {
+    color: #822b24;
+    font-family: 'Abril fatface';
+}
+
+.bookkeeping p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#background2 {
+    max-width: 1600px;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 75px;
+    z-index: -1;
+    display: flex;
+    padding: 100px;
+    grid-row: 2/3;
+}
+    
+.taxes {
+    background-color: #040F0F;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.taxes-img {
+    width: 100%;
+    justify-content: right;
+}
+
+.taxes h2 {
+    color: #822b24;
+    font-family: 'Abril fatface';
+}
+
+.taxes p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#background3 {
+    max-width: 1600px;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 75px;
+    display: flex;
+    padding: 100px;
+    grid-row: 3/4;
+    z-index: -1;
+}
+
+.where {
+    background-color: #040F0F;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0 auto;
+}
+
+.where h2 {
+    color: #822b24;
+    font-family: 'Abril fatface';
+    text-align: center;
+}
+
+.where p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
     }
+
+
+
