@@ -440,7 +440,8 @@ footer a:hover {
     background-color: white;
     box-shadow: 5px 5px 10px black;
     margin-top: 75px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr auto;
     padding: 100px;
     grid-row: 3/4;
     z-index: -1;
@@ -455,6 +456,7 @@ footer a:hover {
     height: auto;
     margin-left: 50px;
     margin-top: 0 auto;
+    grid-row: 1/2;
 }
 
 .where h2 {
@@ -470,9 +472,19 @@ footer a:hover {
     text-align: center;
 }
 
-.button-box {
+.button-box a {
+    grid-row: 2/3;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+    text-decoration: none;
+    padding-top: 50px;   
     }
 
+.button-box a:hover {
+        background-color: #248232;
+        color: white;
+}
 
 
