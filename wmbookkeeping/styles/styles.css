@@ -11,6 +11,7 @@ body {
 h2 {
     margin: 0;
 }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -347,6 +348,7 @@ footer a:hover {
     height: 130px;
     margin-top: -30px;
     padding-top: 15px; 
+    z-index: -1;
 }
 
 .services-grid {
@@ -354,6 +356,7 @@ footer a:hover {
     grid-template-columns: 1fr;
     max-width: 1600px;
     margin: 0 auto;
+    z-index: -1;
 }
 
 #background1 {
@@ -458,6 +461,7 @@ footer a:hover {
     height: auto;
     margin-top: 0 auto;
     grid-row: 1/2;
+    z-index: 10;
 }
 
 .where h2 {
@@ -475,10 +479,8 @@ footer a:hover {
 
 .button-box {
     grid-row: 2/3;
-    margin: 35px auto 0 auto;
-    display: inline-block;
-    /* justify-content: space-around; */
-    text-align: center;
+    margin: 50px auto 0 auto;
+    display: flex;
     border-radius: 10px;
     border: 2px solid #248232;
     background-color: #248232;
@@ -488,12 +490,13 @@ footer a:hover {
     padding-top: 10px;
 }
 .button-box a {
-    text-align: center;
+    margin: 0 auto;
     color: white;
     text-decoration: none;
 }
 
-.button-box a:hover {
+.button-box:hover {
     background-color: black;
     color: white;
+    border: 2px solid black
 }
