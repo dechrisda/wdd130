@@ -459,7 +459,6 @@ footer a:hover {
     box-shadow: 5px 5px 10px black;
     width: auto;
     height: auto;
-    margin-top: 0 auto;
     grid-row: 1/2;
     z-index: 10;
 }
